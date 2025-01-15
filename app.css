@@ -6,13 +6,28 @@ main {
 }
 
 #container {
-  max-width: 327px;
+  width: 327px;
+  height: 579px;
   margin-inline: auto;
   display: grid;
   text-align: center;
   border-radius: 12px;
   background-color: var(--grey-800);
   padding: 24px;
+}
+
+@media (min-width: 768px) {
+  #container {
+    width: 384px;
+    height: 611px;
+  }
+}
+
+@media (min-width: 1440px) {
+  #container {
+    width: 456px;
+    height: 611px;
+  }
 }
 
 #img-wrapper {
