@@ -1,0 +1,25 @@
+:root {
+  /* colors */
+  --grey-900: #141414;
+  --grey-800: #1f1f1f;
+  --grey-700: #333333;
+  --green: #c4f82a;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, system-ui;
+  margin: 0;
+  background-color: var(--grey-900);
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
